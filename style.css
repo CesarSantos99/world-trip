@@ -1,0 +1,30 @@
+.fundo{
+    background: url(img/Pontos-turisticos-da-Bahia-Taipu-de-Fora2.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+    object-position:0 100%;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.titulo{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+
+.cabeca{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0 20px;
+}
+
+/* .maldivas{
+    width: 100%;
+    height: 550px;
+} */
