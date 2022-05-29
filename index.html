@@ -8,6 +8,8 @@
     <!-- css bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
     ">
+    <!-- icons bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <!-- meu css -->
     <link rel="stylesheet" href="style.css">
 
@@ -82,15 +84,172 @@
               </div>
             </div>
           </nav>
+          <nav class="p-5 position-absolute top-50 start-0 translate-middle-y busca">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active text-white bg-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Pacote de viagem</button>
+              <button class="text-white bg-dark nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Atividades</button>
+              <button class="nav-link text-white bg-dark" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Dicas de viagens</button>
+            </div>
+            <div class=" tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" aria-label="Search">
+                  <button class="btn btn-outline-success  mb-2 bg-success text-white" type="submit">Buscar</button>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" aria-label="Search">
+                  <button class="btn btn-outline-success  mb-2 bg-success text-white" type="submit">Buscar</button>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                <form class="d-flex" role="search">
+                <input class=" form-control me-2" type="search" aria-label="Search">
+                <button class="btn btn-outline-success mb-2 bg-success text-white" type="submit">Buscar</button>
+              </form>
+            </div>
+               
+
+          </nav>
     </header>
     <main>
-      <div>
-        <!-- <img class="maldivas" src="img/Maldivas, um dos lugares mais lindos do mundo - Spice up the Road.jpg" alt="Maldivas"> -->
+      <h1 class="m-3">Pacotes de viagens</h1>
+                <!-- Cards -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class=" cards m-3 col-md-3">
+            <img src="img/chile.jpg" class="card-img-top rounded-3 imgCards " alt="Chile">
+            <div>
+              <h5 class=" nomeCard">Chile</h5>
+              <p class=" m-3 precosCard text-decoration-line-through">de R$950,00</p>
+              <p class=" m-3 precosCard">R$7400,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+          <div class="cards m-3 col-md-3">
+            <img src="img/baia-dos-porcos_zarpo-1024x683.webp" class="card-img-top rounded-3 imgCards " alt="baia-dos-porcos_zarpo-">
+            <div>
+              <h5 class=" nomeCard">continente asiático</h5>
+              <p class="card-text m-3 precosCard text-decoration-line-through">de R$1500,00</p>
+              <p class="card-text m-3 precosCard">R$1250,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+          <div class="cards m-3 col-md-3">
+            <img src="img/Minas Gerasi.jpg" class="card-img-top rounded-3 imgCards " alt="ouro Preto">
+            <div>
+              <h5 class=" nomeCard">Brasil</h5>
+              <p class="card-text m-3 precosCard text-decoration-line-through">de R$547,00</p>
+              <p class="card-text m-3 precosCard">R$500,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+          <div class="cards m-3 col-md-3" >
+            <img src="img/Moscol.jpg" class="card-img-top rounded-3 imgCards " alt="Moscou">
+            <div>
+              <h5 class=" nomeCard">Moscou</h5>
+              <p class="card-text m-3 precosCard text-decoration-line-through">de R$2540,00</p>
+              <p class="card-text m-3 precosCard">R$2300,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+          <div class="cards m-3 col-md-3">
+            <img src="img/Paris.jpg" class="card-img-top rounded-3 imgCards " alt="Paris">
+            <div>
+              <h5 class=" nomeCard">Paris</h5>
+              <p class="card-text m-3 precosCard text-decoration-line-through">de R$3000,00</p>
+              <p class="card-text m-3 precosCard">R$2500,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+          <div class="cards m-3 col-md-3">
+            <img src="img/Roma.jpg" class="card-img-top rounded-3 imgCards " alt="Roma">
+            <div>
+              <h5 class=" nomeCard">Roma</h5>
+              <p class="card-text m-3 precosCard text-decoration-line-through">de R$2100,00</p>
+              <p class="card-text m-3 precosCard">R$1870,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+          <div class=" cards m-3 col-md-3">
+            <img src="img/Rio-Celeste-Costa-Rica-shutterstock_1660269913.jpg" class="card-img-top rounded-3 imgCards " alt="Rio-Celeste-Costa-Rica">
+            <div>
+              <h5 class=" nomeCard">Costa Rica</h5>
+              <p class="card-text m-3 precosCard text-decoration-line-through">de R$1670,00</p>
+              <p class="card-text m-3 precosCard">R$1500,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+          <div class="cards m-3 col-md-3">
+            <img src="img/Maldivas, um dos lugares mais lindos do mundo - Spice up the Road.jpg" class="card-img-top rounded-3 imgCards " alt="Maldivas">
+            <div>
+              <h5 class=" nomeCard">Asia</h5>
+              <p class="card-text m-3 precosCard text-decoration-line-through">de R$2367,00</p>
+              <p class="card-text m-3 precosCard">R$2030,00</p>
+              <a href="#" class="btn btn-primary precosCard m-4 botao">Veja mais</a>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="bg-info container">
+        <h2 class="d-flex justify-content-center text-decoration-underline ">Seja um parceiro</h2>
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col">
+              Agencia de Viagem
+            </div>
+            <div class="col">
+              Empresas
+            </div>
+            <div class="col">
+              OTA's
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col">
+              Sistema completo de emissão e venda de passagens rodoviárias para agências de viagens.
+            </div>
+            <div class="col">
+              Plataforma ideal para sua empresa gerir de forma ordenada e econômica o deslocamento coletivo de seus colaboradores.
+            </div>
+            <div class="col">
+              Insira nosso banner (buscador de passagens) em seu site e ganhe comissões por cada venda.
+            </div>
+          </div>
+        </div>
+        </div>
     </main>
-
-    
-    <link rel="stylesheet" href= !-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <footer class="bg-secondary">
+      <div id="contact-area bg-secondary">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title ali d-flex justify-content-center tituloRodape">Entre em contato conosco</h3>
+              </div>
+              <div>
+                <i class="bi bi-telephone"></i>
+                <p class="bold"><span class="contact-tile">Ligue para:</span> (37)99999-88888</p>
+                <p class="bold"><span class="contact-tile">Horários:</span>  8:00 - 19:00</p>
+              </div>
+              <div>
+                <i class="bi bi-envelope"></i>
+                <p class="bold"><span class="contact-tile">Envie um email:</span> contato@hdcagency.com.br</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+                <p class="bold">World Trip&copy; 2022</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <link rel="stylesheet" href= !-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </footer>
 </body>
 </html>

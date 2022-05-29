@@ -24,7 +24,54 @@
     margin: 0 20px;
 }
 
-/* .maldivas{
-    width: 100%;
-    height: 550px;
-} */
+.busca{
+    width: 60%;
+}
+
+.cards{
+    width: 18rem;
+    height: 250px;
+}
+
+.imgCards{
+    height: 250px;
+    position: relative;
+}
+
+.nomeCard{
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.precosCard{
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+}
+.botao{
+    height: 40px;
+    border-radius: 2.7rem;
+    color: rgb(255, 255, 255);
+    border: 0.1rem solid rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    width:180px;
+    background: #5e3ae0;
+}
+.nomeCard:hover{
+    font-size: 25px;
+}
+.tituloRodape{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
