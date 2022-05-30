@@ -75,3 +75,7 @@
 .bold{
     font-weight: bold;
 }
+.botao-gratis{
+    position: relative;
+    bottom: 70px;
+}
